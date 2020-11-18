@@ -23,10 +23,6 @@ interface InputOptions {
    * errorBorderColor = "red.500"
    */
   errorBorderColor?: string
-  /**
-   * If `true`, the input element will span the full width of its parent
-   */
-  isFullWidth?: boolean
 }
 
 type Omitted = "disabled" | "required" | "readOnly" | "size"
